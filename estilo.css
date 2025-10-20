@@ -1,0 +1,216 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #8cd02c;
+  color: #ffffff;
+}
+
+h2{
+font-size: 40px;
+color: #8cd02c;
+text-align: left;
+margin-right: 500px;
+margin-top: 50px;
+}
+
+#topo {
+  background-image: url("imagens/casa.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#menu-topo ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#menu-topo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#menu-topo a:hover {
+  color: #a6e22e;
+  text-decoration: underline;
+}
+
+#topo h1 {
+  font-size: 22px;
+  color: #a6e22e;
+  margin-bottom: 60px;
+}
+
+#info {
+  background-color: #255d0c;
+  padding: 40px;
+  text-align: center;
+}
+
+#info .titulo {
+  background-color: white;
+  color: #2c4c0a;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#info .texto {
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+#depoimento {
+  background-color: #a6e22e;
+  padding: 50px;
+  color: black;
+}
+
+#depoimento h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.depoimento {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.depoimento .foto img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.depoimento .texto h4 {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.depoimento .texto h5 {
+  font-weight: bold;
+  margin-top: 5px;
+}
+#contato {
+  background-color: #255d0c;
+  padding: 40px;
+  text-align: center;
+}
+
+.contato .conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.contato .foto img {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+.contato .titulo {
+  background-color: #a8dc5f;
+  color: #1f600a;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.contato p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.contato img {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+footer {
+  background-color: #8cd02c;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+footer h2 {
+  color: #1f600a;
+  margin-bottom: 25px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.item img {
+  width: 90px;
+  height: 90px;
+  border-radius: 10px;
+}
+
+.descricao h3 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.icone img {
+  width: 80px;
+  margin-top: 15px;
+}
+
+#proj{
+display: flex;
+flex-direction: row;
+justify-content:space-around ;
+align-items: flex-start;
+flex-wrap: wrap;
+padding: 20px;
+gap: 20px;
+} 
+
+.item{
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 150px;
+text-align: center;
+}
+
+.item img{
+width: 100px;
+height: auto;
+border-radius: 10px;
+}
